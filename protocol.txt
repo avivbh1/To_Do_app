@@ -1,0 +1,9 @@
+data we transfer in request and response as json in the body segment
+
+data: {
+    task_number: <int>, 
+    task_content: <str>,
+    username: <str>,
+    password: <str>,
+    tasks: <list of string>
+}

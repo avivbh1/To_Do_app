@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body
+        {
+            background-color: rgb(203, 76, 203);
+        }
+        
+        .button:hover {opacity: 0.5;}
+
+        #login-button
+        {
+            font-size: 30px;
+            color: white;
+            vertical-align: middle; 
+            background-color: black;
+            size: 300px;
+            border-radius: solid white 15px;
+        }
+
+        #sign-up-button
+        {
+            font-size: 30px;
+            color: black;
+            background-color: rgb(255, 255, 255);
+            vertical-align: middle; 
+            border-radius: solid black 15px;
+        }
+    </style>
+    <title>HOME PAGE</title>
+</head>
+<body>
+    <button id="login-button" class="button" value="LOG-IN" onclick="move_to_login()">LOG IN</button>
+    <button id="sign-up-button" class="button" value="SIGN-UP" onclick="move_to_sign_up()">SIGN UP</button>
+    <script>
+        function move_to_login()
+        {
+            window.location = "/login"
+        }
+
+        function move_to_sign_up()
+        {
+            window.location = "/sign-up"
+        }
+    </script>
+</body>
+</html>

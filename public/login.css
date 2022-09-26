@@ -1,0 +1,92 @@
+form {
+    margin: 0 auto;
+    margin-top: 10pxpx;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(116, 116, 220);
+    border: solid black;
+    padding: 20px;
+    border-width: 10px;
+    border-radius: 20px;
+    border-bottom-color: rgb(116, 116, 220);
+    width: 400px;
+    height: 400px;
+    }
+
+body {
+    background-color: rgb(116, 116, 220);
+}
+
+#login-page-title {
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+#username-input
+{
+    margin-top: 30px;
+    font-size: 20px;
+    background: url(username_icon.jpg) no-repeat scroll;
+    position: left;
+    padding-left: 30px;
+    background-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#password-input
+{
+    font-size: 20px;
+    background: url(password_icon.png) no-repeat scroll;
+    position: left;
+    padding-left: 30px;
+    background-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+#login-button {
+    font-size: 20px;
+    background: rgb(0, 0, 0);
+    color: beige;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#login-button:hover {opacity: 0.5;}
+
+#login-page-sub-title
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+    margin-top: 70px;
+    font-size: 35px;
+    border: solid black 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.inside-form {
+    width: 280px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+#change-page-button
+{
+    margin: 0 auto;
+    font-size: 20px;
+    background: beige;
+    color: rgb(4, 4, 4);
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+#change-page-button:hover {opacity: 0.5;}
