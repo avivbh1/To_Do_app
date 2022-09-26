@@ -19,7 +19,7 @@ Make sure to remember your creds :)
 
 ### Dependencies
 
-*donwload npm (make sure to have package-lock.json and node_modules folder)
+* donwload npm (make sure to have package-lock.json and node_modules folder)
 * npm install --save my-dependency 
 * DONE
 
