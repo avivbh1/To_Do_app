@@ -1,0 +1,24 @@
+{
+  "name": "to_do_list_project",
+  "version": "1.0.0",
+  "description": "A to-do list project for exercising",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "parser": "^0.1.4"
+  }
+}
