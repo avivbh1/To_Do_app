@@ -14,8 +14,10 @@ After installing To Do app you will have to sign up, then you will be able to cr
 Simply edit them and delete them. 
 Make sure to remember your creds :)
 
-
 ## Getting Started
+
+after running the server.js file, enter any web browser and enter: https://<your ip>:<your port>
+and sign up to start your own task-management journey ;)
 
 ### Dependencies
 
